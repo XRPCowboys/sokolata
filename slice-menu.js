@@ -113,7 +113,7 @@ window.MENU = [
     items: [
       { name: "Carbonara Calzone", desc: "Mixed cheese, bacon, ham, mushrooms with alfredo sauce.", price: 11.95, img: "carbonara-calzone.jpg", url: S(1000043691, 1000300106) },
       { name: "Chicken Ranch Calzone", desc: "Chicken, tomatoes, onions, mushrooms, bacon with ranch dressing.", price: 11.95, img: "chicken-ranch-calzone.jpg", url: S(1000043691, 1000300115) },
-      { name: "Skinny Calzone", desc: "Fresh spinach, onion, artichoke & feta.", price: 11.95, url: S(1000043691, 1000300123) },
+      { name: "Skinny Calzone", desc: "Fresh spinach, onion, artichoke & feta.", price: 11.95, img: "skinny-calzone.jpg", url: S(1000043691, 1000300123) },
       { name: "Greek Village Calzone", desc: "Olives, onions, green & red peppers, tomatoes, and cheese.", price: 11.95, img: "greek-village-calzone.jpg", url: S(1000043691, 1000300119) },
       { name: "Ham Calzone", desc: "Ham, green peppers, mushrooms.", price: 11.95, img: "ham-calzone.jpg", url: S(1000043691, 1000300129) },
       { name: "Pepperoni Calzone", desc: "Pepperoni & cheese.", price: 11.95, img: "pepperoni-calzone.jpg", url: S(1000043691, 1000300133) },
@@ -130,7 +130,7 @@ window.MENU = [
       { name: "Club Sandwich", desc: "Ham, provolone & American cheese, turkey, mayo, lettuce, tomato & banana peppers.", price: 10.95, img: "club-sandwich.jpg", url: S(1000043697, 1000300163) },
       { name: "House London Broil Sub", desc: "Roast beef, swiss, lettuce, cranberry spread, creamy horseradish.", price: 10.95, tag: "House", img: "house-london-broil-sub.jpg", url: S(1000043697, 1000300170) },
       { name: "Mediterranean Chicken Sub", desc: "Chicken, kalamata olives, hummus, baby spinach, tomatoes.", price: 10.95, img: "mediterranean-chicken-sub.jpg", url: S(1000043697, 1000300173) },
-      { name: "Oven Gold Country Club", desc: "Turkey, cheddar, bacon, lettuce, tomato & mayo.", price: 10.95, url: S(1000043697, 1000300182) },
+      { name: "Oven Gold Country Club", desc: "Turkey, cheddar, bacon, lettuce, tomato & mayo.", price: 10.95, img: "oven-gold-country-club.jpg", url: S(1000043697, 1000300182) },
       { name: "Meatballs Sub", desc: "House meatballs, marinara, melted cheese.", price: 10.95, img: "meatballs-sub.jpg", url: S(1000043697, 1000300197) },
     ],
   },
@@ -144,7 +144,7 @@ window.MENU = [
       { name: "Veggie Pita", desc: "Onions, mushrooms, black olives, peppers, feta, lettuce & tomato.", price: 8.95, img: "veggie-pita.jpg", url: S(1000043703, 1000300254) },
       { name: "Falafel on Pita", desc: "Crispy falafel wrapped in warm pita.", price: 9.95, img: "falafel-pita.jpg", url: S(1000043703, 1000300258) },
       { name: "Double Side Pita with Chicken", desc: "Two pitas loaded with seasoned chicken & fresh veg.", price: 10.95, img: "double-pita-chicken.jpg", url: S(1000043703, 1000300228) },
-      { name: "Double Side Pita with Gyros", desc: "Two pitas loaded with gyro meat, tzatziki & fresh veg.", price: 10.95, url: S(1000043703, 1000300228) },
+      { name: "Double Side Pita with Gyros", desc: "Two pitas loaded with gyro meat, tzatziki & fresh veg.", price: 10.95, img: "double-pita-gyros.jpg", url: S(1000043703, 1000300228) },
     ],
   },
   {
@@ -204,11 +204,11 @@ window.MENU = [
     items: [
       // EACH
       { name: "Napoleon", desc: "Crisp pastry layered with cream.", price: 7.50, img: "napoleon.jpg", url: S(1000043791, 1000300772) },
-      { name: "Tiramisu", desc: "Ladyfingers, espresso, mascarpone, cocoa.", price: 6.50, url: S(1000043791, 1000300768) },
+      { name: "Tiramisu", desc: "Ladyfingers, espresso, mascarpone, cocoa.", price: 6.50, img: "tiramisu.jpg", url: S(1000043791, 1000300768) },
       { name: "Tart", desc: "Buttery shell, custard, fresh fruit.", price: 7.50, img: "tart.jpg", url: S(1000043791, 1000300782) },
       { name: "Baklava", desc: "Layers of filo, chopped nuts, honey.", price: 3.50, tag: "House", img: "baklava.jpg", url: S(1000043791, 1000300788) },
       { name: "Éclair", desc: "Classic cream-filled pastry.", price: 6.50, img: "eclair.jpg", url: S(1000043791, 1000300793) },
-      { name: "Mousse", desc: "Rich, indulgent chocolate dessert.", price: 7.50, url: S(1000043791, 1000300801) },
+      { name: "Mousse", desc: "Rich, indulgent chocolate dessert.", price: 7.50, img: "mousse.jpg", url: S(1000043791, 1000300801) },
       { name: "Lava Cake", desc: "Warm chocolate cake with a molten center.", price: 6.50, img: "lava-cake.jpg", url: S(1000043791, 1000300808) },
       { name: "Cheesecake", desc: "Rich, dense, smooth and creamy.", price: 6.50, img: "cheesecake.jpg", url: S(1000043791, 1000300835) },
       // CUP cakes
@@ -228,7 +228,7 @@ window.MENU = [
       { name: "Soda", desc: "Ice-cold fountain soda.", price: 3.00, img: "soda.jpg", url: S(1000043837, 1000301019) },
       { name: "Sweet Tea", desc: "Southern-style sweet tea.", price: 3.00, img: "sweet-tea.jpg", url: S(1000043837, 1000301021) },
       { name: "Unsweet Tea", desc: "Fresh-brewed, unsweetened.", price: 3.00, img: "unsweet-tea.jpg", url: S(1000043837, 1000301026) },
-      { name: "Starry", desc: "Crisp lemon-lime soda.", price: 3.00, url: S(1000043837, 1000301158) },
+      { name: "Starry", desc: "Crisp lemon-lime soda.", price: 3.00, img: "starry.jpg", url: S(1000043837, 1000301158) },
     ],
   },
 ];
